@@ -1,36 +1,196 @@
 {
     "restaurant": [
         {
-            "id": "2",
-            "name": "Sushi Master",
-            "rating": 4.8,
-            "priceRange": 3,
-            "categories": ["Japanese", "Sushi"],
-            "photos": ["https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800&auto=format&fit=crop&q=60"],
-            "isOpen": true,
-            "location": {
-              "address": "456 Sushi Lane, East Side",
-              "coordinates": {
-                "lat": 40.7129,
-                "lng": -74.0061
-              }
-            }
-          },
-          {
-            "id": "3",
-            "name": "Burger & Co",
-            "rating": 4.2,
-            "priceRange": 1,
-            "categories": ["American", "Burgers"],
-            "photos": ["https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=800&auto=format&fit=crop&q=60"],
-            "isOpen": false,
-            "location": {
-              "address": "789 Burger Ave, West Side",
-              "coordinates": {
-                "lat": 40.7130,
-                "lng": -74.0062
-              }
-            }
+    "id": "1",
+    "name": "The Rustic Kitchen",
+    "rating": 4.5,
+    "priceRange": 2,
+    "categories": ["Italian", "Mediterranean"],
+    "photos": ["https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": true,
+    "location": {
+      "address": "123 Main St, Downtown",
+      "coordinates": {
+        "lat": 40.7128,
+        "lng": -74.0060
+      }
+    }
+  },
+  {
+    "id": "2",
+    "name": "Sushi Master",
+    "rating": 4.8,
+    "priceRange": 3,
+    "categories": ["Japanese", "Sushi"],
+    "photos": ["https://images.unsplash.com/photo-1579871494447-9811cf80d66c?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": true,
+    "location": {
+      "address": "456 Sushi Lane, East Side",
+      "coordinates": {
+        "lat": 40.7129,
+        "lng": -74.0061
+      }
+    }
+  },
+  {
+    "id": "3",
+    "name": "Burger & Co",
+    "rating": 4.2,
+    "priceRange": 1,
+    "categories": ["American", "Burgers"],
+    "photos": ["https://images.unsplash.com/photo-1572802419224-296b0aeee0d9?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": false,
+    "location": {
+      "address": "789 Burger Ave, West Side",
+      "coordinates": {
+        "lat": 40.7130,
+        "lng": -74.0062
+      }
+    }
+  },
+  {
+    "id": "4",
+    "name": "Taco Fiesta",
+    "rating": 4.6,
+    "priceRange": 2,
+    "categories": ["Mexican", "Tacos"],
+    "photos": ["https://images.unsplash.com/photo-1552332386-f8dd00dc2f9c?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": true,
+    "location": {
+      "address": "101 Taco Blvd, South Side",
+      "coordinates": {
+        "lat": 40.7140,
+        "lng": -74.0070
+      }
+    }
+  },
+  {
+    "id": "5",
+    "name": "Vegan Delights",
+    "rating": 4.9,
+    "priceRange": 3,
+    "categories": ["Vegan", "Healthy"],
+    "photos": ["https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": false,
+    "location": {
+      "address": "202 Greenway Rd, Uptown",
+      "coordinates": {
+        "lat": 40.7150,
+        "lng": -74.0080
+      }
+    }
+  },
+  {
+    "id": "6",
+    "name": "BBQ Heaven",
+    "rating": 4.3,
+    "priceRange": 2,
+    "categories": ["BBQ", "American"],
+    "photos": ["https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": true,
+    "location": {
+      "address": "303 Smoke St, Downtown",
+      "coordinates": {
+        "lat": 40.7160,
+        "lng": -74.0090
+      }
+    }
+  },
+  {
+    "id": "7",
+    "name": "Curry House",
+    "rating": 4.7,
+    "priceRange": 2,
+    "categories": ["Indian", "Curry"],
+    "photos": ["https://images.unsplash.com/photo-1562157877-818bc0726f93?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": true,
+    "location": {
+      "address": "404 Spice Rd, East Side",
+      "coordinates": {
+        "lat": 40.7170,
+        "lng": -74.0100
+      }
+    }
+  },
+  {
+    "id": "8",
+    "name": "Noodle Express",
+    "rating": 4.4,
+    "priceRange": 1,
+    "categories": ["Chinese", "Noodles"],
+    "photos": ["https://images.unsplash.com/photo-1553621042-f6e147245754?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": false,
+    "location": {
+      "address": "505 Wok St, Chinatown",
+      "coordinates": {
+        "lat": 40.7180,
+        "lng": -74.0110
+      }
+    }
+  },
+  {
+    "id": "9",
+    "name": "Mediterranean Breeze",
+    "rating": 4.8,
+    "priceRange": 3,
+    "categories": ["Mediterranean", "Greek"],
+    "photos": ["https://images.unsplash.com/photo-1571091718767-18b5b1457add?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": true,
+    "location": {
+      "address": "606 Olive Rd, Uptown",
+      "coordinates": {
+        "lat": 40.7190,
+        "lng": -74.0120
+      }
+    }
+  },
+  {
+    "id": "10",
+    "name": "Steakhouse Prime",
+    "rating": 4.9,
+    "priceRange": 4,
+    "categories": ["Steak", "Fine Dining"],
+    "photos": ["https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": false,
+    "location": {
+      "address": "707 Grill St, West Side",
+      "coordinates": {
+        "lat": 40.7200,
+        "lng": -74.0130
+      }
+    }
+  },
+  {
+    "id": "11",
+    "name": "Fusion Bites",
+    "rating": 4.6,
+    "priceRange": 3,
+    "categories": ["Fusion", "Asian"],
+    "photos": ["https://images.unsplash.com/photo-1600891964099-37e4bb163201?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": true,
+    "location": {
+      "address": "808 Fusion Ln, Downtown",
+      "coordinates": {
+        "lat": 40.7210,
+        "lng": -74.0140
+      }
+    }
+  },
+  {
+    "id": "12",
+    "name": "Pasta Paradise",
+    "rating": 4.5,
+    "priceRange": 2,
+    "categories": ["Italian", "Pasta"],
+    "photos": ["https://images.unsplash.com/photo-1512058564366-18510be2db19?w=800&auto=format&fit=crop&q=60"],
+    "isOpen": true,
+    "location": {
+      "address": "909 Noodle St, East Side",
+      "coordinates": {
+        "lat": 40.7220,
+        "lng": -74.0150
           }
+        }
+      }
     ]
 }
